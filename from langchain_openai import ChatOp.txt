@@ -1,0 +1,26 @@
+from langchain_openai import ChatOpenAI
+import os
+import httpx 
+client =httpx.Client(verify=False)
+llm = ChatOpenAI(
+    base_url = 'https://genailab.tcs.in',
+    model = 'azure_ai/genailab-maas-DeepSeek-V3-0324',
+    api_key = '',
+    http_client = client 
+)
+
+response = llm.invoke('Print a python code')
+print(response)
+
+!pip install langchain-openai
+
+azure_ai/genailab-maas-DeepSeek-R1
+
+azure_ai/genailab-maas-DeepSeek-V3-0324
+
+azure/genailab-maas-text-embedding-3-large 
+
+azure/genailab-maas-gpt-4o 
+
+azure/genailab-maas-gpt-4o-mini
+

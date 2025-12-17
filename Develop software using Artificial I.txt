@@ -1,0 +1,50 @@
+Develop software using Artificial Intelligence, a tool agent for the following user story.
+
+
+Banking KYC Document Upload and Verification:
+As a new banking customer, I want to securely upload my KYC documents online so that my identity can be verified quickly and I can open my bank account without visiting a branch.
+
+STEPS:
+Customer registers and logs into the banking portal or mobile app. System prompts for required KYC documents, e.g. ID proof, address proof, photo. Customer uploads documents securely, pdf, jpg, png, etc. System uses AI/OCR to check document completeness and extract key information. Customer receives error message if any document is missing or needs re-upload. Customer receives confirmation and can proceed with account opening. 
+
+DATA REQUIREMENTS:
+Customer profile, valid documents list required for KYC, audit log, any other data as required.
+
+EXPECTED OUTPUT :
+1.secure portal for customers to upload KYC documents online,
+2.automated checks for document completeness and authenticity, 
+3.instant notifications to customers about missing or invalid documents, 
+4.confirmation message when documents are successfully verified, 
+5.dashboard for customers to track KYC status and next steps, 
+6.audit trial of all uploads and verification actions, 
+7.compilance ready exportable reports for audits,
+
+ 
+Deliverables: 
+
+All the deliverables are expected to be of production-level quality, ensuring excellence in both content and look and feel. 
+
+1.Functional Requirement Document 
+2.Application Architecture and Architecture Document 
+3.DataBase Design / Data Models No JSON input of data, Use any RDBMS. Deliverables include logic model, physical model, and ER diagram.
+4.UI UX Wireframe Design 
+5.Software Code and Working Software 
+6.Functional Test Scripts in A, CSV, or Excel 
+7.Traceability Matrix in CSV, or Excel 
+8.End-User Manual, Screens, and Help Guide 
+9.AI Agent Code Quality Checker Built with an AI framework and Streamlit or Gradio Takes code and checklists as input and provides observations against each checklist item and suggestions for improvements, if any
+
+Instructions :
+Use AI tools or build your own AI agent to develop the software and deliverables. 
+Selection of Tools : Carefully evaluate and select the most suitable AI tools or frameworks for each phase of the project. If building custom AI agents, ensure they are scalable, maintainable. Additional weightage will be given if team builds their own AI agent to create the deliverables. 
+Quality standards : Adhere strictly to coding standards and best practices for software development. Apply consistent design patterns, code reviews, and automated testing to maintain high quality. 
+Integration Ensure seamless integration of components with the overall application architecture. 
+Testing Prepare comprehensive test cases, including both functional and non-functional scenarios.
+Documentation : Maintain clear and detailed documentation for all the deliverables, 
+including architecture, diagram, data models, and user manuals. Update documents regularly as changes are made. 
+User experience : Prioritize a user-centric approach in UI UX design.
+
+
+
+
+
